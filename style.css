@@ -1,0 +1,152 @@
+*
+body{
+background: f1fbff;
+
+}
+.section-pedding{
+    padding: 100px 0;
+
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+
+}
+.carousel-caption {
+    bottom: 220px;
+    z-index: 45px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px; 
+}
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18pz;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7); 
+    /* z-index: 1; */
+}
+/* .navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+} */
+.service .card-body {
+font-size: 50px;
+
+}
+
+.team .cardss{
+    width: 144px;
+height: 690px;
+flex-shrink: 0;
+}
+
+.foo{
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #05010e;;
+    height: 30vw;
+    /* width: 100vw; */
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.header{
+    /* display: inline-flex; */
+    display: flex;
+/* padding: 10px; */
+/* align-items: flex-start; */
+gap: 28px;
+font-size: 28px;
+font-family: work sans;
+
+}
+.heading{
+    display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+font-size: 26px;
+gap: 20px;
+color: rgba(255, 255, 255, 0.60);
+} 
+
+.footer-content img{
+
+    width: 150px;
+    padding-bottom: 30%;
+    
+    }
+    .card img{
+        width: 40px;
+    }
+    .parent-card{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        padding-left: 20%;
+    }
+    
+    .link{
+        color: rgba(255, 255, 255, 0.60);
+    }
+    .containerr{
+        display: flex;
+    }
+    
+
+/*********/
+.team-section {
+    position: relative;
+    background-image: url('images/team.png'); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .team-section-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+    opacity: 0.7;
+
+  }
+  .team-content{
+position: relative;
+  }
+
+  ul.social-icons li{
+    margin: 0 10px;
+  }
+  .social-icons i {
+    background-color: #F85559;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    padding: 7px;
+    border-radius: 50%;
+}
